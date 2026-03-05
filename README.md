@@ -331,6 +331,12 @@ const CONFIG = {
 
 Mentés után a frontend készen áll, de még nem fog működni, mert a backendben sincsenek meg a helyes környezeti változók.
 
+A változásos felolvasásához a VM-en nyiss egy **PowerShell** ablakot és futtasd:
+
+```powershell
+iisreset
+```
+
 ---
 
 ## 4. lépés – Azure Database for MySQL
